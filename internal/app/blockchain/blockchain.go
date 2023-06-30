@@ -1,13 +1,13 @@
 package blockchain
 
-type BlockChain struct {
+type Blockchain struct {
 	Blocks []*Block
 }
 
-func NewBlockChain(blocks []*Block) *BlockChain {
-	return &BlockChain{Blocks: blocks}
+func NewBlockChain(blocks []*Block) *Blockchain {
+	return &Blockchain{Blocks: blocks}
 }
 
-func (b *BlockChain) Add(data []byte) {
+func (b *Blockchain) Add(data []byte) {
 	
 }
